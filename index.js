@@ -3,7 +3,7 @@ const axios = require('axios');
 
 const app = express();
 const port = 3000;
-// Cette ligne est essentielle pour lire le JSON du body
+// Cette ligne est essentielle pour lire le JSON du body !!!
 app.use(express.json());
 
 const gatewayUrl = process.env.GATEWAY_URL || 'http://localhost:8080';
